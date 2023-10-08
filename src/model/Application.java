@@ -5,9 +5,11 @@
 package model;
 
 /**
- *
- * @author laure
+ * runs the main application window
+ * 
  */
 public class Application {
+    
+    boolean isRunning;
     
 }
