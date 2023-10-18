@@ -5,22 +5,31 @@
 package model;
 
 /**
- *Represents the player and score of the user during game play
- * 
+ * Represents the player and score of the user during game play
+ *
  */
 public class Player {
-    
-    string playerName; //TODO fix this
-    int score;
-    
-    
+
+    String playerName;
+
     /**
-     * gets the player name 
-     * 
+     * constructor for Player sets playerName to an empty string
+     *
+     */
+    Player() {
+        playerName = " ";
+    }
+
+    /**
+     * gets the player name
+     *
      * returns string of player's name
      */
-    string getName(){
-        //TODO getName
+    public String getName() {
+        String name;
+        name = "Player name: " + playerName;
         return playerName;
     }
+
+ 
 }
