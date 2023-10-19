@@ -5,32 +5,36 @@
 package model;
 
 /**
- *Represents the player's life count.
- * 
- * return an integer value between 0 and 3
+ * G had trouble pushing to the GitHub repo. He has started work on the player
+ * class, and we will work on fixing the push issue with the new repo. We are
+ * having to change to Maven to use JavaFX
+ */
+/**
+ * Represents the player's life count.
+ *
+ *
  */
 public class Life {
-    
+
     int lifeCount;
-    
+
     /**
      * Decreases the player's life count when they collide with an asteroid
-     * 
+     *
      * return integer value that is one less than the previous life value
      */
-    int decrease(int lifeCount){
+    int decrease() {
         //TODO implement decrease method
-        return lifeCount; 
+        return lifeCount;
     }
-    
+
     /**
      * Will trigger the game over sequence when all lives are lost
-     * 
+     *
      * return void
      */
-    
-    void onGameOver(){
+    void onGameOver() {
         //TODO implement onGameOver
-        
+
     }
 }
